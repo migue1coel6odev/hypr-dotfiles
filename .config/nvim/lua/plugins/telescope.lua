@@ -1,5 +1,7 @@
 
-return {  {"nvim-telescope/telescope.nvim",
+return {
+	{ "rose-pine/neovim", name = "rose-pine" },
+	{"nvim-telescope/telescope.nvim",
   name = "telescope",
   tag = '0.1.6',
   dependencies = { 'nvim-lua/plenary.nvim' },
@@ -49,5 +51,23 @@ opts = {
 	vim.keymap.set('n', '<leader>a', mark.add_file)
 	vim.keymap.set('n', '<C-e>', ui.toggle_quick_menu)
 	vim.keymap.set('n', '<C-h>', function() ui.nav_file(1) end)
-  end}
+  end},
+  {'mbbill/undotree', 
+  config = function () 
+ 	vim.keymap.set('n', '<leader>u', vim.cmd.UndotreeToggle)
+  end},
+{'tpope/vim-fugitive', config = function() 
+	vim.keymap.set('n', '<leader>gs', vim.cmd.Git)
+end},
+{
+    "williamboman/mason.nvim",
+    "williamboman/mason-lspconfig.nvim",
+    "neovim/nvim-lspconfig",
+},
+{'VonHeikemen/lsp-zero.nvim', branch = 'v3.x'},
+{'neovim/nvim-lspconfig'},
+{'hrsh7th/cmp-nvim-lsp'},
+{'hrsh7th/nvim-cmp'},
+{'L3MON4D3/LuaSnip'},
 }
+
