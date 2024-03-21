@@ -1,0 +1,28 @@
+(defwidget greeter [?text name]
+  (box :orientation "horizontal"
+       :halign "center"
+    text
+    (button :onclick "notify-send 'Hello' 'Hello, ${name}'"
+      "Greet")))
+
+(defwidget shutdown []
+  (box :orientation "horizontal"
+       :halign "center"
+       :valign "center"
+       (button :onclick "poweroff" "OFF")))
+
+(defwindow example
+           :monitor 0
+           :geometry (geometry :x "0%"
+                               :y "20px"
+                               :width "90%"
+                               :height "30px"
+                               :anchor "top center")
+           :stacking "fg"
+	   :exclusive true
+	   :namespace 1
+	   (box
+		(greeter :text "Not Say hello!"
+		   :name "Tim")
+		(shutdown)
+	   ))
