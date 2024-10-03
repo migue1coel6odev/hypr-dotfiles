@@ -114,3 +114,10 @@ export NVM_DIR="$HOME/.nvm"
 # Custom alias
 alias ws="cd ~/Dev && ls"
 alias apps="cd ~/Apps && ls"
+
+# bun completions
+[ -s "/home/mrc/.bun/_bun" ] && source "/home/mrc/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
