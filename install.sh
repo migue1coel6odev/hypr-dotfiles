@@ -8,7 +8,7 @@ sudo pacman -S stow
 sudo pacman -S pavucontrol playerctl
 
 # Hyprland
-sudo pacman -S hyprpaper
+sudo pacman -S hyprpaper hyprlock
 
 # Work directory
 cd ~
