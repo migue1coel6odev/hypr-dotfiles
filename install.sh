@@ -5,7 +5,7 @@ sudo pacman -Sy
 
 # Essentials
 sudo pacman -S stow
-sudo pacman -S pavucontrol
+sudo pacman -S pavucontrol playerctl
 
 # Editor
 curl -f https://zed.dev/install.sh | sh
