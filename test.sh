@@ -1,9 +1,10 @@
-printf "Install rust ? (Y/n)"
+# Freecad
+printf "Install freecad ? (Y/n)"
 read answer
 
 if [ "$answer" != "${answer#[Nn]}" ] ; then
-    echo  "Skipping rust..."
+    echo  "Skipping freecad..."
 else
-    echo  "Installing rust..."
-    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+    echo  "Installing freecad..."
+    sudo pacman -S freecad
 fi

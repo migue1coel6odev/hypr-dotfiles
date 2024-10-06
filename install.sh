@@ -2,6 +2,7 @@
 sudo pacman-key --init
 sudo pacman-key --populate
 sudo pacman -Sy
+sudo timedatectl set-local-rtc 1
 
 # Essentials
 sudo pacman -S stow
@@ -88,4 +89,48 @@ if [ "$answer" != "${answer#[Nn]}" ] ; then
 else
     echo  "Installing rust..."
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+fi
+
+# Steam
+printf "Install steam ? (Y/n)"
+read answer
+
+if [ "$answer" != "${answer#[Nn]}" ] ; then
+    echo  "Skipping steam..."
+else
+    echo  "Installing steam..."
+    sudo pacman -S steam
+fi
+
+# Discord
+printf "Install discord ? (Y/n)"
+read answer
+
+if [ "$answer" != "${answer#[Nn]}" ] ; then
+    echo  "Skipping discord..."
+else
+    echo  "Installing discord..."
+    sudo pacman -S discord
+fi
+
+# Teamspeak
+printf "Install teamspeak ? (Y/n)"
+read answer
+
+if [ "$answer" != "${answer#[Nn]}" ] ; then
+    echo  "Skipping teamspeak..."
+else
+    echo  "Installing teamspeak..."
+    sudo pacman -S teamspeak3
+fi
+
+# Freecad
+printf "Install freecad ? (Y/n)"
+read answer
+
+if [ "$answer" != "${answer#[Nn]}" ] ; then
+    echo  "Skipping freecad..."
+else
+    echo  "Installing freecad..."
+    sudo pacman -S freecad
 fi
