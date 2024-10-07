@@ -35,3 +35,6 @@ then use GNU stow to create symlinks
 $ stow .
 ```
 
+
+## TODO
+- Add Zig to install script
