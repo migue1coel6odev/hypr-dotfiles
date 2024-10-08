@@ -3,7 +3,6 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export PATH=$PATH:/home/mrc/Apps/eww/target/release
 export PATH=$HOME/.local/bin:$PATH
 
 # Set name of the theme to load --- if set to "random", it will
@@ -116,7 +115,7 @@ alias ws="cd ~/Dev && ls"
 alias apps="cd ~/Apps && ls"
 
 # bun completions
-[ -s "/home/mrc/.bun/_bun" ] && source "/home/mrc/.bun/_bun"
+[ -s "/home/$USER/.bun/_bun" ] && source "/home/$USER/.bun/_bun"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
