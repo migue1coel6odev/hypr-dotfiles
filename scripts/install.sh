@@ -59,3 +59,7 @@ if [ $? -eq "1" ] ; then call_package_script figma; fi
 
 prompt_install "1password"
 if [ $? -eq "1" ] ; then call_package_script 1password; fi
+
+echo
+echo
+echo "You can now reboot your system and then run the post_install script"

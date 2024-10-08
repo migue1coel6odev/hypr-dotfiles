@@ -1,1 +1,1 @@
-sudo pacman -S stow pavucontrol playerctl
+sudo pacman -S stow pavucontrol playerctl github-cli
