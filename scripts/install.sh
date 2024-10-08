@@ -11,6 +11,9 @@ if [ $? -eq "1" ] ; then call_setup_script shell; fi
 prompt_run "Install essentials?"
 if [ $? -eq "1" ] ; then call_setup_script essentials; fi
 
+prompt_run "Install bluetooth?"
+if [ $? -eq "1" ] ; then call_setup_script bluetooth; fi
+
 prompt_run "Install hyprland utils?"
 if [ $? -eq "1" ] ; then call_setup_script hyprland; fi
 
