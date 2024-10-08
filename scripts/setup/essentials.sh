@@ -1,2 +1,2 @@
 sudo pacman -S stow pavucontrol playerctl github-cli
-stow -d ../../dotfiles -t ~
+stow -d ../dotfiles -t ~ .
