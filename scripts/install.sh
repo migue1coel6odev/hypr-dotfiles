@@ -50,3 +50,9 @@ if [ $? -eq "1" ] ; then call_package_script teamspeak; fi
 # Apps
 prompt_install "Freecad"
 if [ $? -eq "1" ] ; then call_package_script freecad; fi
+
+prompt_install "Slack"
+if [ $? -eq "1" ] ; then call_package_script slack; fi
+
+prompt_install "1password"
+if [ $? -eq "1" ] ; then call_package_script 1password; fi
