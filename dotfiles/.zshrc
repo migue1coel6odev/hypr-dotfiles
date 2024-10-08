@@ -113,6 +113,7 @@ export NVM_DIR="$HOME/.nvm"
 # Custom alias
 alias ws="cd ~/Dev && ls"
 alias apps="cd ~/Apps && ls"
+alias hyprfig="cd ~/hypr-dotfiles && ls"
 
 # bun completions
 [ -s "/home/$USER/.bun/_bun" ] && source "/home/$USER/.bun/_bun"
