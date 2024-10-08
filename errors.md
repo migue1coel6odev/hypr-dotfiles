@@ -3,7 +3,7 @@
 - google chrome (font needed) - review
 - zed (oh my zsh cant be loaded from sh) - review
 - docker (unable to install docker-desktop (conflicts with compose)) -
-- node (gets out of script) - needs post-install script
+- node (gets out of script) - needs post-install script - review
 - 1password (key) - review
 
 
@@ -16,7 +16,7 @@
 [x] Hyprland
 
 [ ] Google Chrome
-[x] Zed
+[ ] Zed
 [ ] Docker
 [ ] Node
 [x] Bun
