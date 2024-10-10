@@ -27,6 +27,9 @@ if [ $? -eq "1" ] ; then call_package_script zed; fi
 prompt_install "Docker"
 if [ $? -eq "1" ] ; then call_package_script docker; fi
 
+prompt_install "DBeaver"
+if [ $? -eq "1" ] ; then call_package_script dbeaver; fi
+
 prompt_install "Node (nvm)"
 if [ $? -eq "1" ] ; then call_package_script node; fi
 
