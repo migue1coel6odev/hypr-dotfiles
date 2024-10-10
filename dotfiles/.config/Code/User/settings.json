@@ -1,0 +1,6 @@
+{
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'Fira Code','Droid Sans Mono', 'monospace', monospace",
+  "editor.fontSize": 15,
+  "terminal.integrated.fontFamily": "'MesloLGS NF'"
+}

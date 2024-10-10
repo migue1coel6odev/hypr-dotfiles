@@ -32,7 +32,8 @@ $ cd dotfiles
 then use GNU stow to create symlinks
 
 ```
-$ stow .
+$ cd dotfiles
+$ stow -t ~ . --adopt
 ```
 
 ## Execute install script
