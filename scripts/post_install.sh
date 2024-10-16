@@ -4,6 +4,7 @@
 cd ../dotfiles
 stow -t ~ . --adopt
 git restore .
+cd ../scripts
 
 call_package_postinstall_script node
 
