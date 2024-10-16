@@ -24,6 +24,9 @@ if [ $? -eq "1" ] ; then call_package_script chrome; fi
 prompt_install "Zed"
 if [ $? -eq "1" ] ; then call_package_script zed; fi
 
+prompt_install "Code"
+if [ $? -eq "1" ] ; then call_package_script vscode; fi
+
 prompt_install "Docker"
 if [ $? -eq "1" ] ; then call_package_script docker; fi
 
