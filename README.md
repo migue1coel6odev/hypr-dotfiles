@@ -8,7 +8,7 @@ This directory contains the dotfiles for my system
 
 Ensure you have the following installed on your system
 
-### Git
+### Git;
 
 ```
 pacman -S git
