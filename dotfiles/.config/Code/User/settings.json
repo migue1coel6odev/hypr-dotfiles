@@ -3,5 +3,6 @@
   "editor.fontFamily": "'Fira Code','Droid Sans Mono', 'monospace', monospace",
   "editor.fontSize": 15,
   "terminal.integrated.fontFamily": "'MesloLGS NF'",
-  "terminal.external.linuxExec": "zsh"
+  "terminal.external.linuxExec": "zsh",
+  "liveServer.settings.donotVerifyTags": true
 }

@@ -114,6 +114,8 @@ export NVM_DIR="$HOME/.nvm"
 alias ws="cd ~/Dev && ls"
 alias apps="cd ~/Apps && ls"
 alias hyprfig="cd ~/hypr-dotfiles && ls"
+alias opendbeaver="export GDK_SCALE=1; export GDK_DPI_SCALE=1; export GDK_BACKEND=x11; nohup dbeaver &"
+# alias opendbeaver="export GDK_SCALE=1; export GDK_DPI_SCALE=1; export GDK_BACKEND=x11; dbeaver &>/dev/null &"
 
 # bun completions
 [ -s "/home/$USER/.bun/_bun" ] && source "/home/$USER/.bun/_bun"

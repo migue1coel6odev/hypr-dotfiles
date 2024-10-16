@@ -3,3 +3,4 @@ sudo systemctl enable docker.service
 # git clone https://aur.archlinux.org/docker-desktop.git ~/Apps/docker-desktop
 # cd ~/Apps/docker-desktop
 # makepkg --syncdeps -i
+    
