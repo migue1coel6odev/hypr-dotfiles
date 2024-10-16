@@ -1,3 +1,5 @@
+# Add deno completions to search path
+if [[ ":$FPATH:" != *":/home/mrc/.zsh/completions:"* ]]; then export FPATH="/home/mrc/.zsh/completions:$FPATH"; fi
 
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -123,3 +125,7 @@ alias opendbeaver="export GDK_SCALE=1; export GDK_DPI_SCALE=1; export GDK_BACKEN
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+. "/home/mrc/.deno/env"
+# Initialize zsh completions (added by deno install script)
+autoload -Uz compinit
+compinit

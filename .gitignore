@@ -1,1 +1,6 @@
 lazy-lock.json
+
+dotfiles/.config/Code/*
+
+!dotfiles/.config/Code/User/keybindings.json
+!dotfiles/.config/Code/User/settings.json

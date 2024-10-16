@@ -39,11 +39,17 @@ if [ $? -eq "1" ] ; then call_package_script node; fi
 prompt_install "Bun"
 if [ $? -eq "1" ] ; then call_package_script bun; fi
 
+prompt_install "Deno"
+if [ $? -eq "1" ] ; then call_package_script deno; fi
+
 prompt_install "Rust"
 if [ $? -eq "1" ] ; then call_package_script rust; fi
 
 prompt_install "Zig"
 if [ $? -eq "1" ] ; then call_package_script zig; fi
+
+prompt_install "Nix"
+if [ $? -eq "1" ] ; then call_package_script nix; fi
 
 
 # Games
