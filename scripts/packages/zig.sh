@@ -1,1 +1,1 @@
-sudo pacman -S zig
+sudo pacman -S zig zls
