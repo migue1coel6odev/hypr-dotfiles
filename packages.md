@@ -8,7 +8,7 @@ sudo pacman -S --needed xdg-user-dirs pavucontrol playerctl curl tree man man-db
 xdg-user-dirs-update
 sudo pacman -S noto-fonts noto-fonts-emoji noto-fonts-cjk ttf-dejavu ttf-liberation ttf-fira-code ttf-jetbrains-mono ttf-font-awesome
 
-sudo pacman -S hyprpaper waybar wofi kitty
+sudo pacman -S hyprpaper waybar wofi kitty dolphin
 
 mkdir Apps
 git clone https://aur.archlinux.org/yay.git
