@@ -1,0 +1,7 @@
+sudo pacman -S nvidia-open nvidia-utils egl-wayland
+
+#set on hypr.conf
+env = LIBVA_DRIVER_NAME,nvidia
+env = __GLX_VENDOR_LIBRARY_NAME,nvidia
+
+env = ELECTRON_OZONE_PLATFORM_HINT,auto
